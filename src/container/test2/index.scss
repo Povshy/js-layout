@@ -1,0 +1,75 @@
+.page {
+    padding: 24px;
+    max-width: 400px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    transition: opacity 0.7s;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+.title {
+    font-size: 24px;
+    color: #121212;
+}
+// -----------------------
+
+.post__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-around;
+    gap: 0px;
+
+    &--viewed {
+        color: #888888;
+        border-bottom: 1px solid #888888;
+    }
+
+    &--noviewed {
+        color:#121212;
+        border-bottom: 1px solid #121212;
+    }
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.h2 {
+    color:#121212;
+    font-size: 18px;
+}
+
+
+.post__info {
+    font-size: 14px;
+    line-height: 1.4em;
+    color: #363636;
+}
+
+.telega {
+    background-color: #F46F17;
+    color: white;
+    border-radius: 10px;
+    padding: 16px;
+}
